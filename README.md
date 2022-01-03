@@ -1,7 +1,10 @@
 Installation：
+
 mmcv: pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/{cu_version}/{torch_version}/index.html
       Please replace {cu_version} and {torch_version} in the url to your desired one.
+      
       For example: pip install mmcv-full -f https://download.openmmlab.com/mmcv/dist/cu102/torch1.9.0/index.html
+
 mmdet: pip install mmdet 
 
 Use:
