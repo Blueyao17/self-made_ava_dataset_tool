@@ -13,7 +13,7 @@ Step 1: python detectron2_outvia3.py path/to/your/faster_rcnn_r50_fpn_2x_coco.py
         --input path/to/your/keyframes/*/*.jpg /
         --gen_via3
         --output path/to/your/annotations_proposal
-        --score 0.5 --show
+        --score-thr 0.5 --show
         
         For example:
         python detectron2_outvia3.py E:\ava\faster_rcnn_r50_fpn_2x_coco.py 
